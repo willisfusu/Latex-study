@@ -10,7 +10,7 @@
 \newcounter{tblerows}
 \expandafter\let\csname c@tblerows\endcsname\rownum
 
-\title{\LaTeX{} 踩坑记}
+\title{使用\LaTeX{} 做Beamer踩坑记}
 \subtitle{掉头发之旅}
 
 \author{Will}
@@ -48,7 +48,7 @@
 	Win10 \faWindows 的字体安装可能与Win7有所不同。在Win10下安装字体需要选择 install for all users才能正常被Texlive调用。 切记！吾曾于此坑中耗费一时辰光阴。
 \end{note}
 \subsection{常用的字体相关宏包推荐}
-刚刚讲过，世上多顔值党，而\TeX{} buildin template又实在是难入吾辈顔值一党法眼。并且\TeX 与\LaTeX 其原作大神尤钟爱“简洁”、“素净”的排版风格，实在是不够优雅。 于是使用一系列宏包（package）增加一些风格化的设置成为必要。推荐以下的宏包：
+刚刚讲过，世上多顔值党，而\TeX{} buildin template又实在是难入吾辈顔值一党法眼。并且\TeX 与\LaTeX 其原作大神尤钟爱“简洁”、“素净”的排版风格，实在是不够优雅。 于是使用一系列宏包（package）增加一些风格化的设置成为必要。推荐表\ref{tab-1}中的宏包：
 \begin{table}[htbp]
 \centering
 \begin{tabular}{lll}
@@ -60,6 +60,8 @@
 	fontawesome5&可以提供各种图标的宏包（配合手册使用效果更佳）&\link{https://ctan.org/pkg/fontawesome}\\
 	\bottomrule
 \end{tabular}
+\caption{常用字体宏包推荐}
+\label{tab-1}
 \end{table}
 \footnotetext{伟批：考证！似乎并无原包链接此词}
 \subsection{fontspec宏包使用}
